@@ -77,5 +77,3 @@ The dataset has been cleaned and preprocessed to remove outliers and missing val
 
 ## Results
 After comparing all models, Prophet provided the best results. It handled seasonality effectively and delivered the most accurate forecasts for daily temperatures. The model is deployed on a web interface where users can visualize temperature forecasts.
-
-css
