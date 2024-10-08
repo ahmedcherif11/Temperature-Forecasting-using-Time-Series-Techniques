@@ -25,7 +25,7 @@ The **Prophet** model outperformed ARIMA, SARIMA, and LSTM, giving better result
 
 ## Project Structure
 
-```bash
+```console
 project-root/
 │
 ├── arima-sarima_lstm/          # Folder containing ARIMA, SARIMA, and LSTM models
@@ -35,7 +35,7 @@ project-root/
 ├── templates/                  # HTML templates for the web app
 ├── app.py                      # Main Flask application
 ├── .gitignore                  # Git ignore file
-├── README.md                   # Project documentation
+├── README.md                   # Project documentation ```
 
 
 ## Project Overview
