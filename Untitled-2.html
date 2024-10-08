@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Prediction</title>
+</head>
+<body>
+    <h1>Temperature Prediction</h1>
+    <form action="/predict_temperature" method="GET">
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="date">Date (YYYY-MM-DD):</label>
+        <input type="text" id="date" name="date" required><br><br>
+
+        <input type="submit" value="Predict Temperature">
+    </form>
+</body>
+</html>
