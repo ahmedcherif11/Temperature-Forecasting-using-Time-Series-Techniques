@@ -36,7 +36,7 @@ project-root/
 ├── app.py                      # Main Flask application
 ├── .gitignore                  # Git ignore file
 ├── README.md                   # Project documentation ```
-
+```
 
 ## Project Overview
 In this project, we explored multiple statistical and deep learning models to forecast daily temperatures. The Prophet model outperformed others in accuracy and is used for the final deployment.
@@ -56,3 +56,26 @@ The Flask application serves a web-based interface where users can interact with
 ```bash
 git clone https://github.com/ahmedcherif11/Cheetass_Pose_estimation-.git
 cd project-root
+```
+### 2. Install Dependencies
+### 3. Run the Flask App
+Run the following command to start the Flask web server:
+
+```bash
+python app.py
+```
+
+Once the server starts, you can access the web application in your browser at http://localhost:5000.
+
+## Dataset
+The dataset used for this project is city_temperature.csv, which contains daily temperature readings from various cities. The data includes:
+
+**Date**: The date of the temperature reading
+**City**: The location where the temperature was recorded
+**Temperature**: The temperature reading (in Celsius)
+The dataset has been cleaned and preprocessed to remove outliers and missing values.
+
+## Results
+After comparing all models, Prophet provided the best results. It handled seasonality effectively and delivered the most accurate forecasts for daily temperatures. The model is deployed on a web interface where users can visualize temperature forecasts.
+
+css
